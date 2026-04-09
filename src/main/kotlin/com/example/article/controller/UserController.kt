@@ -1,13 +1,13 @@
 package com.example.article.controller
 
-import com.example.article.data.CreateUserRequest
-import com.example.article.data.CreateUserResponse
-import com.example.article.data.DeleteUserRequest
-import com.example.article.data.DeleteUserResponse
-import com.example.article.data.GetUserRequest
-import com.example.article.data.GetUserResponse
-import com.example.article.data.UpdateUserRequest
-import com.example.article.data.UpdateUserResponse
+import com.example.article.data.user.CreateUserRequest
+import com.example.article.data.user.CreateUserResponse
+import com.example.article.data.user.DeleteUserRequest
+import com.example.article.data.user.DeleteUserResponse
+import com.example.article.data.user.GetUserRequest
+import com.example.article.data.user.GetUserResponse
+import com.example.article.data.user.UpdateUserRequest
+import com.example.article.data.user.UpdateUserResponse
 import com.example.article.service.UserService
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping

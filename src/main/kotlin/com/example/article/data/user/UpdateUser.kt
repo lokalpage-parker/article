@@ -1,4 +1,6 @@
-package com.example.article.data
+package com.example.article.data.user
+
+import com.example.article.entity.User
 
 data class UpdateUserRequest(
     val id: Int,

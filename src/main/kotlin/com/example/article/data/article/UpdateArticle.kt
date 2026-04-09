@@ -1,4 +1,6 @@
-package com.example.article.data
+package com.example.article.data.article
+
+import com.example.article.entity.Article
 
 data class UpdateArticleRequest(
     val id: Int,
