@@ -1,4 +1,4 @@
-package com.example.article.data
+package com.example.article.data.article
 
 data class DeleteArticleRequest(
     val id: Int,

@@ -1,6 +1,14 @@
 package com.example.article.service
 
-import com.example.article.data.*
+import com.example.article.data.article.CreateArticleRequest
+import com.example.article.data.article.CreateArticleResponse
+import com.example.article.data.article.DeleteArticleRequest
+import com.example.article.data.article.DeleteArticleResponse
+import com.example.article.data.article.GetArticleRequest
+import com.example.article.data.article.GetArticleResponse
+import com.example.article.data.article.UpdateArticleRequest
+import com.example.article.data.article.UpdateArticleResponse
+import com.example.article.entity.Article
 import com.example.article.repository.ArticleRepository
 import org.springframework.data.repository.findByIdOrNull
 import org.springframework.stereotype.Service

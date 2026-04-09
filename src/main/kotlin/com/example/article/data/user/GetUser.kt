@@ -1,4 +1,4 @@
-package com.example.article.data
+package com.example.article.data.user
 
 import java.time.LocalDate
 
